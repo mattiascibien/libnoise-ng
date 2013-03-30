@@ -186,6 +186,7 @@
     <ClInclude Include="module\voronoi.h" />
     <ClInclude Include="noise.h" />
     <ClInclude Include="noisegen.h" />
+    <ClInclude Include="noiseutils.h" />
     <ClInclude Include="vectortable.h" />
     <ClInclude Include="win32\resource.h" />
   </ItemGroup>
@@ -225,6 +226,7 @@
     <ClCompile Include="module\turbulence.cpp" />
     <ClCompile Include="module\voronoi.cpp" />
     <ClCompile Include="noisegen.cpp" />
+    <ClCompile Include="noiseutils.cpp" />
     <ClCompile Include="win32\dllmain.cpp" />
   </ItemGroup>
   <ItemGroup>
