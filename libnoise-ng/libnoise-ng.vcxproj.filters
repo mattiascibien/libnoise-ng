@@ -168,6 +168,9 @@
     <ClInclude Include="win32\resource.h">
       <Filter>File di intestazione\win32</Filter>
     </ClInclude>
+    <ClInclude Include="noiseutils.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="latlon.cpp">
@@ -277,6 +280,9 @@
     </ClCompile>
     <ClCompile Include="win32\dllmain.cpp">
       <Filter>File di origine\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="noiseutils.cpp">
+      <Filter>File di origine</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
