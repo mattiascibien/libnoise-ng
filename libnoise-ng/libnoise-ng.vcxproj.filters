@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="File di origine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="File di intestazione">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="File di risorse">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="File di intestazione\model">
+      <UniqueIdentifier>{ab283579-f0e4-4b9b-8970-c723c3eff295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\model">
+      <UniqueIdentifier>{05fdc986-2f51-4b21-bdc8-20a0e0c9168c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\module">
+      <UniqueIdentifier>{9e51308e-d610-4f55-ba23-0b342ad3c1aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\module">
+      <UniqueIdentifier>{d291848b-942f-447d-853e-43948abd29bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\win32">
+      <UniqueIdentifier>{b7fc6bb8-b378-46b9-801d-b07c82db6cf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\win32">
+      <UniqueIdentifier>{709931c1-61c3-4fd6-bae9-0f149939928d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="basictypes.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="exception.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="interp.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="latlon.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="mathconsts.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="misc.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="noise.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="noisegen.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="vectortable.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="model\cylinder.h">
+      <Filter>File di intestazione\model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\line.h">
+      <Filter>File di intestazione\model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\model.h">
+      <Filter>File di intestazione\model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\plane.h">
+      <Filter>File di intestazione\model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\sphere.h">
+      <Filter>File di intestazione\model</Filter>
+    </ClInclude>
+    <ClInclude Include="module\abs.h">
+      <Filter>File di intestazione\module</Filter>
+    </ClInclude>
+    <ClInclude Include="module\add.h">
+      <Filter>File di intestazione\module</Filter>
+    </ClInclude>
+    <ClInclude Include="module\billow.h">
+      <Filter>File di intestazione\module</Filter>
+    </ClInclude>
+    <ClInclude Include="module\blend.h">
+      <Filter>File di intestazione\module</Filter>
+    </ClInclude>
+    <ClInclude Include="module\cache.h">
+      <Filter>File di intestazione\module</Filter>
+    </ClInclude>
+    <ClInclude Include="module\checkerboard.h">
+      <Filter>File di intestazione\module</Filter>
+    </ClInclude>
+    <ClInclude Include="module\clamp.h">
+      <Filter>File di intestazione\module</Filter>
+    </ClInclude>
+    <ClInclude Include="module\const.h">
+      <Filter>File di intestazione\module</Filter>
+    </ClInclude>
+    <ClInclude Include="module\curve.h">
+      <Filter>File di intestazione\module</Filter>
+    </ClInclude>
+    <ClInclude Include="module\cylinders.h">
+      <Filter>File di intestazione\module</Filter>
+    </ClInclude>
+    <ClInclude Include="module\displace.h">
+      <Filter>File di intestazione\module</Filter>
+    </ClInclude>
+    <ClInclude Include="module\exponent.h">
+      <Filter>File di intestazione\module</Filter>
+    </ClInclude>
+    <ClInclude Include="module\invert.h">
+      <Filter>File di intestazione\module</Filter>
+    </ClInclude>
+    <ClInclude Include="module\max.h">
+      <Filter>File di intestazione\module</Filter>
+    </ClInclude>
+    <ClInclude Include="module\min.h">
+      <Filter>File di intestazione\module</Filter>
+    </ClInclude>
+    <ClInclude Include="module\module.h">
+      <Filter>File di intestazione\module</Filter>
+    </ClInclude>
+    <ClInclude Include="module\modulebase.h">
+      <Filter>File di intestazione\module</Filter>
+    </ClInclude>
+    <ClInclude Include="module\multiply.h">
+      <Filter>File di intestazione\module</Filter>
+    </ClInclude>
+    <ClInclude Include="module\perlin.h">
+      <Filter>File di intestazione\module</Filter>
+    </ClInclude>
+    <ClInclude Include="module\power.h">
+      <Filter>File di intestazione\module</Filter>
+    </ClInclude>
+    <ClInclude Include="module\ridgedmulti.h">
+      <Filter>File di intestazione\module</Filter>
+    </ClInclude>
+    <ClInclude Include="module\rotatepoint.h">
+      <Filter>File di intestazione\module</Filter>
+    </ClInclude>
+    <ClInclude Include="module\scalebias.h">
+      <Filter>File di intestazione\module</Filter>
+    </ClInclude>
+    <ClInclude Include="module\scalepoint.h">
+      <Filter>File di intestazione\module</Filter>
+    </ClInclude>
+    <ClInclude Include="module\select.h">
+      <Filter>File di intestazione\module</Filter>
+    </ClInclude>
+    <ClInclude Include="module\spheres.h">
+      <Filter>File di intestazione\module</Filter>
+    </ClInclude>
+    <ClInclude Include="module\terrace.h">
+      <Filter>File di intestazione\module</Filter>
+    </ClInclude>
+    <ClInclude Include="module\translatepoint.h">
+      <Filter>File di intestazione\module</Filter>
+    </ClInclude>
+    <ClInclude Include="module\turbulence.h">
+      <Filter>File di intestazione\module</Filter>
+    </ClInclude>
+    <ClInclude Include="module\voronoi.h">
+      <Filter>File di intestazione\module</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\resource.h">
+      <Filter>File di intestazione\win32</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="latlon.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="noisegen.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="model\cylinder.cpp">
+      <Filter>File di origine\model</Filter>
+    </ClCompile>
+    <ClCompile Include="model\line.cpp">
+      <Filter>File di origine\model</Filter>
+    </ClCompile>
+    <ClCompile Include="model\plane.cpp">
+      <Filter>File di origine\model</Filter>
+    </ClCompile>
+    <ClCompile Include="model\sphere.cpp">
+      <Filter>File di origine\model</Filter>
+    </ClCompile>
+    <ClCompile Include="module\abs.cpp">
+      <Filter>File di origine\module</Filter>
+    </ClCompile>
+    <ClCompile Include="module\add.cpp">
+      <Filter>File di origine\module</Filter>
+    </ClCompile>
+    <ClCompile Include="module\billow.cpp">
+      <Filter>File di origine\module</Filter>
+    </ClCompile>
+    <ClCompile Include="module\blend.cpp">
+      <Filter>File di origine\module</Filter>
+    </ClCompile>
+    <ClCompile Include="module\cache.cpp">
+      <Filter>File di origine\module</Filter>
+    </ClCompile>
+    <ClCompile Include="module\checkerboard.cpp">
+      <Filter>File di origine\module</Filter>
+    </ClCompile>
+    <ClCompile Include="module\clamp.cpp">
+      <Filter>File di origine\module</Filter>
+    </ClCompile>
+    <ClCompile Include="module\const.cpp">
+      <Filter>File di origine\module</Filter>
+    </ClCompile>
+    <ClCompile Include="module\curve.cpp">
+      <Filter>File di origine\module</Filter>
+    </ClCompile>
+    <ClCompile Include="module\cylinders.cpp">
+      <Filter>File di origine\module</Filter>
+    </ClCompile>
+    <ClCompile Include="module\displace.cpp">
+      <Filter>File di origine\module</Filter>
+    </ClCompile>
+    <ClCompile Include="module\exponent.cpp">
+      <Filter>File di origine\module</Filter>
+    </ClCompile>
+    <ClCompile Include="module\invert.cpp">
+      <Filter>File di origine\module</Filter>
+    </ClCompile>
+    <ClCompile Include="module\max.cpp">
+      <Filter>File di origine\module</Filter>
+    </ClCompile>
+    <ClCompile Include="module\min.cpp">
+      <Filter>File di origine\module</Filter>
+    </ClCompile>
+    <ClCompile Include="module\modulebase.cpp">
+      <Filter>File di origine\module</Filter>
+    </ClCompile>
+    <ClCompile Include="module\multiply.cpp">
+      <Filter>File di origine\module</Filter>
+    </ClCompile>
+    <ClCompile Include="module\perlin.cpp">
+      <Filter>File di origine\module</Filter>
+    </ClCompile>
+    <ClCompile Include="module\power.cpp">
+      <Filter>File di origine\module</Filter>
+    </ClCompile>
+    <ClCompile Include="module\ridgedmulti.cpp">
+      <Filter>File di origine\module</Filter>
+    </ClCompile>
+    <ClCompile Include="module\rotatepoint.cpp">
+      <Filter>File di origine\module</Filter>
+    </ClCompile>
+    <ClCompile Include="module\scalebias.cpp">
+      <Filter>File di origine\module</Filter>
+    </ClCompile>
+    <ClCompile Include="module\scalepoint.cpp">
+      <Filter>File di origine\module</Filter>
+    </ClCompile>
+    <ClCompile Include="module\select.cpp">
+      <Filter>File di origine\module</Filter>
+    </ClCompile>
+    <ClCompile Include="module\spheres.cpp">
+      <Filter>File di origine\module</Filter>
+    </ClCompile>
+    <ClCompile Include="module\terrace.cpp">
+      <Filter>File di origine\module</Filter>
+    </ClCompile>
+    <ClCompile Include="module\translatepoint.cpp">
+      <Filter>File di origine\module</Filter>
+    </ClCompile>
+    <ClCompile Include="module\turbulence.cpp">
+      <Filter>File di origine\module</Filter>
+    </ClCompile>
+    <ClCompile Include="module\voronoi.cpp">
+      <Filter>File di origine\module</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\dllmain.cpp">
+      <Filter>File di origine\win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="win32\noise.rc">
+      <Filter>File di risorse</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="win32\libnoise.def">
+      <Filter>File di origine</Filter>
+    </None>
+  </ItemGroup>
+</Project>
