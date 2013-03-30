@@ -171,6 +171,9 @@
     <ClInclude Include="noiseutils.h">
       <Filter>File di intestazione</Filter>
     </ClInclude>
+    <ClInclude Include="libnoisedll.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="latlon.cpp">

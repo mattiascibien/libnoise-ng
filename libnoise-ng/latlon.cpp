@@ -24,7 +24,7 @@
 
 using namespace noise;
 
-void noise::LatLonToXYZ (double lat, double lon, double& x, double& y,
+LIBNOISENGAPI void noise::LatLonToXYZ (double lat, double lon, double& x, double& y,
   double& z)
 {
   double r = cos (DEG_TO_RAD * lat);

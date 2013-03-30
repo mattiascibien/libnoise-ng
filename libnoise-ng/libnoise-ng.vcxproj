@@ -147,6 +147,7 @@
     <ClInclude Include="exception.h" />
     <ClInclude Include="interp.h" />
     <ClInclude Include="latlon.h" />
+    <ClInclude Include="libnoisedll.h" />
     <ClInclude Include="mathconsts.h" />
     <ClInclude Include="misc.h" />
     <ClInclude Include="model\cylinder.h" />

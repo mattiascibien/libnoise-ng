@@ -69,7 +69,7 @@ namespace noise
     /// and @a z increases inward.)
     ///
     /// This noise module requires one source module.
-    class RotatePoint: public Module
+	class LIBNOISENGAPI RotatePoint: public Module
     {
 
       public:

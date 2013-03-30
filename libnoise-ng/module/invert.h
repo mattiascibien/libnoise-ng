@@ -31,42 +31,42 @@ namespace noise
   namespace module
   {
 
-    /// @addtogroup libnoise
-    /// @{
+	/// @addtogroup libnoise
+	/// @{
 
-    /// @addtogroup modules
-    /// @{
+	/// @addtogroup modules
+	/// @{
 
-    /// @addtogroup modifiermodules
-    /// @{
+	/// @addtogroup modifiermodules
+	/// @{
 
-    /// Noise module that inverts the output value from a source module.
-    ///
-    /// @image html moduleinvert.png
-    ///
-    /// This noise module requires one source module.
-    class Invert: public Module
-    {
+	/// Noise module that inverts the output value from a source module.
+	///
+	/// @image html moduleinvert.png
+	///
+	/// This noise module requires one source module.
+	class LIBNOISENGAPI Invert: public Module
+	{
 
-      public:
+	  public:
 
-        /// Constructor.
-        Invert ();
+		/// Constructor.
+		Invert ();
 
-        virtual int GetSourceModuleCount () const
-        {
-          return 1;
-        }
+		virtual int GetSourceModuleCount () const
+		{
+		  return 1;
+		}
 
-        virtual double GetValue (double x, double y, double z) const;
+		virtual double GetValue (double x, double y, double z) const;
 
-    };
+	};
 
-    /// @}
+	/// @}
 
-    /// @}
+	/// @}
 
-    /// @}
+	/// @}
 
   }
 
